@@ -26,17 +26,6 @@ git clone https://github.com/franjuniorofcbr/PainelCliente.git
 
 2. Inclua os arquivos do SDK no seu projeto.
 
-3. Configure o autoloader:
-
-```php
-spl_autoload_register(function ($class) {
-    $path = __DIR__ . "/" . str_replace("\\", "/", $class) . ".php";
-    if (file_exists($path)) {
-        require_once $path;
-    }
-});
-```
-
 ## Uso 🔧
 
 ### Configuração Inicial
